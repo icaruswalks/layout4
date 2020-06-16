@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#box {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+    border: 0;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+#box h2 {
+    text-align: center;
+    color: rgb(0, 181, 253);
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.user > div { float: left;  }
+.user::after { content: ""; display: table; clear: both;}
+.uesr2 > div { float: left;}
+.user2::after { content: ""; display: table; clear: both;}
+.email > div { float: left;}
+.email::after { content: ""; display: table; clear: both;}
+.mobile > div { float: left;}
+.mobile::after { content: ""; display: table; clear: both;}
+.pencil > div { float: left;}
+.pencil::after { content: ""; display: table; clear: both;}
+
