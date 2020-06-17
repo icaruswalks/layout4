@@ -3,25 +3,38 @@
 #box {
     width: auto;
     height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
     background-color: #eeeeee;
     border: 0;
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+
 }
 
 #box h2 {
+    box-sizing: border-box;
     text-align: center;
     color: rgb(0, 181, 253);
-    font-size: 35px;
-    padding-top: 15px;
+    font-size: 30px;
+    margin: 10px;
 }
 
-.user > div { float: left;  }
+.user { box-sizing: border-box; margin: 10px 0; width: 100%; }
+.user3 { box-sizing: border-box; margin: 10px 0; width: 100%;}
+.email { box-sizing: border-box; margin: 10px 0; width: 100%;}
+.mobile { box-sizing: border-box; margin: 10px 0; width: 100%;}
+.pencil { box-sizing: border-box; margin: 10px 0; width: 100%;}
+
+.user > .a, .user > .a1 { float: left;  }
 .user::after { content: ""; display: table; clear: both;}
-.uesr2 > div { float: left;}
-.user2::after { content: ""; display: table; clear: both;}
+.user3 > div { float: left;}
+.user3::after { content: ""; display: table; clear: both;}
 .email > div { float: left;}
 .email::after { content: ""; display: table; clear: both;}
 .mobile > div { float: left;}
@@ -29,3 +42,71 @@
 .pencil > div { float: left;}
 .pencil::after { content: ""; display: table; clear: both;}
 
+.a, .b, .c, .d, .e {
+    box-sizing: border-box;
+    width: 5%;
+    height: auto;
+    
+}
+
+.a1, .b2, .c2, .d2, .e2 { box-sizing: border-box; width: 95%; height: auto; }
+
+.t1 {
+    font-size: 15px;
+    width: 99%;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #bbbbbb;
+    color: grey;
+    
+}
+.t2 {
+    font-size: 15px;
+    width: 99%;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    color: grey;
+   
+}
+.t3 {
+    font-size: 15px;
+    width: 99%;
+    height: 40px;
+    vertical-align: middle;
+    border: 1px solid #bbbbbb;
+    color: grey;
+    
+}
+.t4 {
+    font-size: 15px;
+    width: 99%;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    color: grey;
+    
+}
+.t5 {
+    font-size: 15px;
+    width: 99%;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    color: grey;
+   
+}
+
+.btn {
+    box-sizing: border-box;
+    margin: 15px 0; 
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+.btn1 {
+    
+    background-color: rgb(0, 181, 253);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
